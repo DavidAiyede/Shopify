@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color:#F1F1F1;
+  }
+  header{
+    background-color: #1C181D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+  }
+  input{
+    background-color: #322F33;
+    border: 2px solid #656266;
+    width: 500px;
+    height: 5vh;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+  }
+  input::placeholder{
+    color: #E3E3E3;
+    padding:30px;
+  }
+  .search{
+    position: absolute;
+    top: 15px;
+    padding-left:10px;
+  }
+  .notificate{
+    background-color:#322F33;
+    border-radius: 4px;
+    padding:5px;
+  }
+  .notificate:hover{
+    background-color: #656266;
+  }
+  .notify{
+    display: none;
+  }
+  .notify.pop{
+    padding: 5px;
+    border-radius: 15px;
+    right: 10px;
+    top: 50px;
+    display: flex;
+    position: absolute;
+    width: 410px;
+    background-color:#ffffff;
+}
+  .notification2{
+    padding: 15px;
+    border-radius: 10px;
+  }
+  .Alert{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Alert2{
+  background-color:#E3E3E3;
+  padding: 10px;
+  margin-top: 20px;
+}
+  #head{
+    display: flex;
+    column-gap: 5px;
+    align-items:center;
+  }
+  .Davii{
+    display: flex;
+    background-color: #322F33;
+    align-items: center;
+    color: white;
+    padding: 0px 0px 0px 5px;
+    column-gap: 5px;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .Davii:hover{
+    background-color: #656266;
+  }
+  .Davii button{
+    background-color: rgba(46, 179, 46, 0.966);
+    border: none;
+    padding: 6px;
+    border-radius: 5px;
+    align-items: center;
+  }
+  .DC{
+    display: none
+  }
+  .DC.popUp{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    right: 10px;
+    top: 50px;
+    position: absolute;
+    display: flex;
+}
+.DC-pop{
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+}
+  .Davii2{
+    display: flex;
+    background-color: #E3E3E3;
+    align-items: center;
+    width: 250px;
+    padding: 0px 0px 0px 5px;
+    column-gap: 5px;
+    border-radius: 5px;
+    justify-content: space-between;
+  }
+  .Davii2 button{
+    background-color: rgba(10, 145, 10, 0.966);
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+  }
+  .Davii2 img{
+    width: 30px;
+    filter: grayscale(50%);
+}
+.Davi2{
+  display: flex;
+  align-items: center;
+  font-size:medium;
+}
+.DC-pop hr{
+  margin-top: 10px;
+  padding: 0;
+  font-size: 20px;
+}
+.Davi2:hover{
+  background-color:#E3E3E3;
+  border-radius: 5px;
+  padding: 3px 0px 3px 5px;
+}
+.Davi3{
+  padding-left: 5px;
+  padding-top: 13px;
+  font-size:medium;
+  color:#322F33;
+}
+.Davi3:hover{
+  background-color:#E3E3E3;
+  border-radius: 5px;
+  font-size: 15px;
+}
+.DM{
+   padding-left: 5px;
+   padding-top: 10px;
+   line-height: 15px;
+}
